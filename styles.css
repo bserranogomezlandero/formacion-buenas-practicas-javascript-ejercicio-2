@@ -1,0 +1,55 @@
+.btn {
+  background: #86bd25;
+  border: none;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  padding: 12px 13px;
+  border-radius: 4px;
+  transition: all 0.6s;
+}
+
+.btn:hover {
+  background: #a2ce57;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+  transform: scale(0.99);
+}
+
+.btn--special {
+  background: #bd8025;
+}
+
+.btn--special:hover {
+  background: #dda249;
+}
+
+.dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dialog--open {
+  display: inline-block;
+}
+
+.dialog__backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog__wrapper {
+  background: white;
+  border: 2px solid black;
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
